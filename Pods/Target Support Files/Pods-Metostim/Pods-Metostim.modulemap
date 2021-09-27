@@ -1,0 +1,6 @@
+framework module Pods_Metostim {
+  umbrella header "Pods-Metostim-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,57 @@
+
+    [
+        {
+            "iconName": "home",
+            "lblValue": "Home",
+            "open": false,
+            "innerObject": []
+        },
+        {
+            "iconName": "services",
+            "lblValue": "Services",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+        {
+            "iconName": "aboutus",
+            "lblValue": "About Us",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+        {
+            "iconName": "ourwork",
+            "lblValue": "Our Work",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+        {
+            "iconName": "blog",
+            "lblValue": "Blog",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+        {
+            "iconName": "career",
+            "lblValue": "Carrer",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+        {
+            "iconName": "contactus",
+            "lblValue": "Contact Us",
+            "open": false,
+            "innerObject": [
+                
+            ]
+        },
+    ]
