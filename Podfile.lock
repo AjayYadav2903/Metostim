@@ -6,7 +6,7 @@ PODS:
     - Kingfisher (> 3.0)
   - iOSDropDown (0.3.4)
   - IQKeyboardManager (6.5.6)
-  - Kingfisher (6.3.1)
+  - Kingfisher (7.1.1)
   - KRActivityIndicatorView (3.0.7)
   - KRProgressHUD (3.4.7):
     - KRActivityIndicatorView (= 3.0.7)
@@ -42,12 +42,12 @@ SPEC CHECKSUMS:
   ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
-  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
   KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
   KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 717977e1aebfbf39fd43ee795f129f80cdcf7e07
+PODFILE CHECKSUM: 9b02ca330ec8c98c892f7fbb90d5599fb5a74873
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2

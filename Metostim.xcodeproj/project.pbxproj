@@ -21,6 +21,7 @@
 		796C078C2700EC95005F6A51 /* BannersDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C078A2700EC95005F6A51 /* BannersDataModel.swift */; };
 		796C07942700F542005F6A51 /* BirdTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C07922700F542005F6A51 /* BirdTypeModel.swift */; };
 		796C07952700F542005F6A51 /* BirdTypeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C07932700F542005F6A51 /* BirdTypeDataModel.swift */; };
+		79ABEBE92702DFB3002D12CB /* Metostim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79ABEBE72702DFB3002D12CB /* Metostim.xcdatamodeld */; };
 		79AD1F2527006C350055B0C4 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD1F2327006C350055B0C4 /* CountryData.swift */; };
 		79AD1F2627006C350055B0C4 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD1F2427006C350055B0C4 /* CountryModel.swift */; };
 		79AD1F2D27006F320055B0C4 /* PopupSingleSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79AD1F2927006F320055B0C4 /* PopupSingleSelectionCell.xib */; };
@@ -68,6 +69,10 @@
 		842488E0250A4691003DF822 /* InnerObjectLvl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842488DF250A4691003DF822 /* InnerObjectLvl2.swift */; };
 		845A0571250A162200161DB7 /* OuterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A0570250A162200161DB7 /* OuterObject.swift */; };
 		845A0574250A164600161DB7 /* InnerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A0573250A164600161DB7 /* InnerObject.swift */; };
+		CEE14EB2272AC52300962A44 /* BannersEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE14EB1272AC52300962A44 /* BannersEntity+CoreDataProperties.swift */; };
+		CEE14EB4272AC52800962A44 /* BannersEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE14EB3272AC52800962A44 /* BannersEntity+CoreDataClass.swift */; };
+		CEE14EB6272AC55200962A44 /* GetBirdsTypeEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE14EB5272AC55200962A44 /* GetBirdsTypeEntity+CoreDataProperties.swift */; };
+		CEE14EB8272AC55C00962A44 /* GetBirdsTypeEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE14EB7272AC55C00962A44 /* GetBirdsTypeEntity+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +91,7 @@
 		796C078A2700EC95005F6A51 /* BannersDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannersDataModel.swift; sourceTree = "<group>"; };
 		796C07922700F542005F6A51 /* BirdTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdTypeModel.swift; sourceTree = "<group>"; };
 		796C07932700F542005F6A51 /* BirdTypeDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdTypeDataModel.swift; sourceTree = "<group>"; };
+		79ABEBE82702DFB3002D12CB /* Metostim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Metostim.xcdatamodel; sourceTree = "<group>"; };
 		79AD1F2327006C350055B0C4 /* CountryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
 		79AD1F2427006C350055B0C4 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		79AD1F2927006F320055B0C4 /* PopupSingleSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupSingleSelectionCell.xib; sourceTree = "<group>"; };
@@ -148,6 +154,10 @@
 		A908042144D61758C896A459 /* Pods-VSS_BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSS_BaseProject.release.xcconfig"; path = "Target Support Files/Pods-VSS_BaseProject/Pods-VSS_BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		B39E620C5DA2CA31560A5B0C /* Pods-Vridhisoftech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vridhisoftech.release.xcconfig"; path = "Target Support Files/Pods-Vridhisoftech/Pods-Vridhisoftech.release.xcconfig"; sourceTree = "<group>"; };
 		BE5741B98A130384F7BF2318 /* Pods-Vridhisoftech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vridhisoftech.debug.xcconfig"; path = "Target Support Files/Pods-Vridhisoftech/Pods-Vridhisoftech.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE14EB1272AC52300962A44 /* BannersEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BannersEntity+CoreDataProperties.swift"; path = "/Users/User/Downloads/Metostim/Metostim/BannersEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		CEE14EB3272AC52800962A44 /* BannersEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BannersEntity+CoreDataClass.swift"; path = "/Users/User/Downloads/Metostim/Metostim/BannersEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		CEE14EB5272AC55200962A44 /* GetBirdsTypeEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GetBirdsTypeEntity+CoreDataProperties.swift"; path = "/Users/User/Downloads/Metostim/Metostim/GetBirdsTypeEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		CEE14EB7272AC55C00962A44 /* GetBirdsTypeEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GetBirdsTypeEntity+CoreDataClass.swift"; path = "/Users/User/Downloads/Metostim/Metostim/GetBirdsTypeEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		DC746EA74943DBA66D5B89A4 /* Pods-Metostim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metostim.debug.xcconfig"; path = "Target Support Files/Pods-Metostim/Pods-Metostim.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F9069103A6168D718BB620 /* Pods-VSS_BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSS_BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-VSS_BaseProject/Pods-VSS_BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -265,6 +275,10 @@
 		84174FC624ECFB230055F86F /* Metostim */ = {
 			isa = PBXGroup;
 			children = (
+				CEE14EB7272AC55C00962A44 /* GetBirdsTypeEntity+CoreDataClass.swift */,
+				CEE14EB5272AC55200962A44 /* GetBirdsTypeEntity+CoreDataProperties.swift */,
+				CEE14EB3272AC52800962A44 /* BannersEntity+CoreDataClass.swift */,
+				CEE14EB1272AC52300962A44 /* BannersEntity+CoreDataProperties.swift */,
 				79AD1F362700BE270055B0C4 /* Utils */,
 				7937991A26FD96B1004A8DB2 /* API */,
 				842488DD250A3BBE003DF822 /* Resources */,
@@ -281,6 +295,7 @@
 				84174FD224ECFB280055F86F /* LaunchScreen.storyboard */,
 				84174FD524ECFB280055F86F /* Info.plist */,
 				84174FE324ECFC530055F86F /* Metostim-Bridging-Header.h */,
+				79ABEBE72702DFB3002D12CB /* Metostim.xcdatamodeld */,
 			);
 			path = Metostim;
 			sourceTree = "<group>";
@@ -412,7 +427,7 @@
 				84174FC024ECFB230055F86F /* Sources */,
 				84174FC124ECFB230055F86F /* Frameworks */,
 				84174FC224ECFB230055F86F /* Resources */,
-				F221FB220AB9206CF3176868 /* [CP] Embed Pods Frameworks */,
+				0491F426DB1CCC689FA48E04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,6 +493,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0491F426DB1CCC689FA48E04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5FBD14FA90B4569308A1D630 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,23 +532,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F221FB220AB9206CF3176868 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metostim/Pods-Metostim-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -530,6 +545,7 @@
 				796C078C2700EC95005F6A51 /* BannersDataModel.swift in Sources */,
 				8417505324ECFEDB0055F86F /* SettingVC.swift in Sources */,
 				79AD1F462700CA6A0055B0C4 /* KingfisherSource.swift in Sources */,
+				CEE14EB4272AC52800962A44 /* BannersEntity+CoreDataClass.swift in Sources */,
 				84174FF424ECFD110055F86F /* Extension.swift in Sources */,
 				8417504224ECFE310055F86F /* IntroViewCell.swift in Sources */,
 				8417503924ECFE310055F86F /* LeftSlideViewController.swift in Sources */,
@@ -547,6 +563,7 @@
 				84174FCC24ECFB230055F86F /* ViewController.swift in Sources */,
 				8417504324ECFE310055F86F /* UIViewController+MMDrawerController.m in Sources */,
 				8417504624ECFE310055F86F /* SignUpConfirmation.swift in Sources */,
+				79ABEBE92702DFB3002D12CB /* Metostim.xcdatamodeld in Sources */,
 				79AD1F392700BE4B0055B0C4 /* iCarousel.m in Sources */,
 				7937992026FD96B1004A8DB2 /* WebServices.swift in Sources */,
 				8417503C24ECFE310055F86F /* CenterVC.swift in Sources */,
@@ -561,6 +578,8 @@
 				8417504024ECFE310055F86F /* HomeInfoVC.swift in Sources */,
 				84174FF324ECFD110055F86F /* Constant.swift in Sources */,
 				8417503B24ECFE310055F86F /* LeftSlideTableViewCell.swift in Sources */,
+				CEE14EB8272AC55C00962A44 /* GetBirdsTypeEntity+CoreDataClass.swift in Sources */,
+				CEE14EB2272AC52300962A44 /* BannersEntity+CoreDataProperties.swift in Sources */,
 				8417503A24ECFE310055F86F /* MMDrawerBarButtonItem.m in Sources */,
 				8417505124ECFEAD0055F86F /* ToastView.swift in Sources */,
 				79AD1F2F27006F320055B0C4 /* PopupSingleSelection.swift in Sources */,
@@ -569,6 +588,7 @@
 				79AD1F342700A1A70055B0C4 /* ChangePasswordVC.swift in Sources */,
 				84174FFF24ECFD6E0055F86F /* ContactusVC.swift in Sources */,
 				84174FF524ECFD110055F86F /* ImageZoomView.swift in Sources */,
+				CEE14EB6272AC55200962A44 /* GetBirdsTypeEntity+CoreDataProperties.swift in Sources */,
 				8417505024ECFEAD0055F86F /* Toast.swift in Sources */,
 				8417504124ECFE310055F86F /* SignUpVC.swift in Sources */,
 				8417504F24ECFEAD0055F86F /* ToastWindow.swift in Sources */,
@@ -635,6 +655,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -649,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -695,6 +716,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -703,9 +725,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -719,18 +742,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4SWG3962U;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Metostim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vssfoundation.Vridhisoftech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Metostim/Metostim-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -740,17 +768,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4SWG3962U;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = Metostim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vssfoundation.Vridhisoftech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Metostim/Metostim-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -776,6 +809,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79ABEBE72702DFB3002D12CB /* Metostim.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79ABEBE82702DFB3002D12CB /* Metostim.xcdatamodel */,
+			);
+			currentVersion = 79ABEBE82702DFB3002D12CB /* Metostim.xcdatamodel */;
+			path = Metostim.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84174FBC24ECFB230055F86F /* Project object */;
 }

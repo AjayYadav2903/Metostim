@@ -8,6 +8,7 @@
 
 import UIKit
 import IQKeyboardManager
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -89,39 +90,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainStoryboard = UIStoryboard(name: "Login", bundle: Bundle.main)
         return mainStoryboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
     }
-    
-    func buildNavigationDrawer()
-    {
-        let mainStoryBoard:UIStoryboard = UIStoryboard(name:"Home", bundle:nil)
-        var mainNavigationController = UIViewController()
-        
-            mainNavigationController =  mainStoryBoard.instantiateViewController(withIdentifier: "HomeInfoVC") as! HomeInfoVC
-        
-        let leftSideMenu : LeftSlideViewController = UIStoryboard(name: "Leftmenu", bundle: nil).instantiateViewController(withIdentifier: "LeftSlideViewController") as! LeftSlideViewController
-        
-        
-        // Wrap into Navigation controllers
-        let leftSideMenuNav = UINavigationController(rootViewController:leftSideMenu)
-        let centerNavigation = UINavigationController(rootViewController:mainNavigationController)
-        
-        // Cerate MMDrawerController
-        //drawerContainer = MMDrawerController(center: mainPage, leftDrawerViewController: leftSideMenuNav)
-        drawerContainer = MMDrawerController(center: centerNavigation, leftDrawerViewController: leftSideMenuNav)
-        // app.mainNav = mainNavigationController
-        drawerContainer?.showsShadow = true
-        
-        drawerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
-        drawerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
-        
-        drawerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningNavigationBar
-        drawerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
-        
-        drawerContainer?.closeDrawerGestureModeMask = .tapCenterView
-        drawerContainer?.closeDrawerGestureModeMask = .all
-        // Assign MMDrawerController to our window's root ViewController
-        
-        UIApplication.shared.windows.first?.rootViewController = drawerContainer
-        UIApplication.shared.windows.first?.makeKeyAndVisible()
+
+    func applicationWillTerminate(_ application: UIApplication) {
+    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Saves changes in the application's managed object context before the application terminates.
+    self.saveContext()
+    }
+    // MARK: - Core Data stack
+    lazy var persistentContainer: NSPersistentContainer = {
+    /*
+    The persistent container for the application. This implementation
+    creates and returns a container, having loaded the store for the
+    application to it. This property is optional since there are legitimate
+    error conditions that could cause the creation of the store to fail.
+    */
+    let container = NSPersistentContainer(name: "Metostim")
+    container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+    if let error = error as NSError? {
+    // Replace this implementation with code to handle the error appropriately.
+    // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+    /*
+    Typical reasons for an error here include:
+    * The parent directory does not exist, cannot be created, or disallows writing.
+    * The persistent store is not accessible, due to permissions or data protection when the device is locked.
+    * The device is out of space.
+    * The store could not be migrated to the current model version.
+    Check the error message to determine what the actual problem was.
+    */
+    fatalError("Unresolved error \(error), \(error.userInfo)")
+    }
+    })
+    return container
+    }()
+    // MARK: - Core Data Saving support
+    func saveContext () {
+    let context = persistentContainer.viewContext
+    if context.hasChanges {
+    do {
+    try context.save()
+    } catch {
+    // Replace this implementation with code to handle the error appropriately.
+    // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+    let nserror = error as NSError
+    fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+    }
+    }
     }
     
 }

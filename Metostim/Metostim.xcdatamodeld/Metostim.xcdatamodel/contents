@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BannersEntity" representedClassName="BannersEntity" syncable="YES">
+        <attribute name="filename" optional="YES" attributeType="String"/>
+        <attribute name="fileStream" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GetBirdsTypeEntity" representedClassName="GetBirdsTypeEntity" syncable="YES">
+        <attribute name="birds_Code" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="birds_Image" optional="YES" attributeType="String"/>
+        <attribute name="birds_Name" optional="YES" attributeType="String"/>
+        <attribute name="climate_code" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="climate_name" optional="YES" attributeType="String"/>
+        <attribute name="iD" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="GetFormulaData" representedClassName="GetFormulaData" syncable="YES" codeGenerationType="class">
+        <attribute name="birds_Code" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="birds_Name" optional="YES" attributeType="String"/>
+        <attribute name="birdValue" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="climate_code" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="climate_Name" optional="YES" attributeType="String"/>
+        <attribute name="days" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="formulaValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="BannersEntity" positionX="-54" positionY="-9" width="128" height="59"/>
+        <element name="GetBirdsTypeEntity" positionX="-36" positionY="9" width="128" height="119"/>
+        <element name="GetFormulaData" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
+</model>
